@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "public": true,
+    "cleanUrls": true,
+    "builds": [
+        {
+            "src": "index.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "script.js",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "style.css",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "logo.jpg",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "*.mp3",
+            "use": "@vercel/static"
+        }
+    ]
+}
