@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.exe
+*.asar
+build-installer.js
+.DS_Store
+node_modules
